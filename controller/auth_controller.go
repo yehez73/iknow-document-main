@@ -434,7 +434,7 @@ func ChangePassword(c echo.Context) error {
 
 	return c.JSON(http.StatusOK, &models.Response{
 		Code:    200,
-		Message: "Password berhasil diubah!",
+		Message: "Password berhasil diubah! Silahkan login kembali",
 		Status:  true,
 	})
 
